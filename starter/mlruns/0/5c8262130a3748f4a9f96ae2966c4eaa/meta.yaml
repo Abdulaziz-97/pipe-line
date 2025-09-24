@@ -1,0 +1,14 @@
+artifact_uri: file:///home/aziz9788/pipe-line/starter/mlruns/0/5c8262130a3748f4a9f96ae2966c4eaa/artifacts
+end_time: 1758742444098
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5c8262130a3748f4a9f96ae2966c4eaa
+run_name: persistent-shoat-103
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758742375183
+status: 4
+tags: []
+user_id: aziz9788

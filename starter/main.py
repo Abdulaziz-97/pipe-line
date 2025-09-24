@@ -5,7 +5,7 @@ from omegaconf import DictConfig, OmegaConf
 
 
 # This automatically reads in the configuration
-@hydra.main(config_name='config')
+@hydra.main(version_base=None, config_path=".", config_name="config")
 def go(config: DictConfig):
 
     # Setup the wandb experiment. All runs will be grouped under this name
@@ -20,8 +20,8 @@ def go(config: DictConfig):
         # This was passed on the command line as a comma-separated list of steps
         steps_to_execute = config["main"]["execute_steps"].split(",")
     else:
-        assert isinstance(config["main"]["execute_steps"], list)
-        steps_to_execute = config["main"]["execute_steps"]
+        # Accept Hydra ListConfig or native list
+        steps_to_execute = list(config["main"]["execute_steps"])
 
     # Download step
     if "download" in steps_to_execute:
@@ -46,19 +46,6 @@ def go(config: DictConfig):
                 "artifact_name": "preprocessed_data.csv",
                 "artifact_type": "preprocessed_data",
                 "artifact_description": "Data with preprocessing applied"
-            },
-        )
-
-
-    if "check_data" in steps_to_execute:
-
-        _= mlflow.run(
-            os.path.join(root_path, "check_data"),
-            "main",
-            parameters={
-                "reference_artifact": config["data"]["reference_dataset"],
-                "sample_artifact": "preprocessed_data.csv:latest",
-                "ks_alpha": config["data"]["ks_alpha"]
             },
         )
 

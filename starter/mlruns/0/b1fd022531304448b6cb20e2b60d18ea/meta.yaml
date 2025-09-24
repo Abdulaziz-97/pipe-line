@@ -1,0 +1,14 @@
+artifact_uri: file:///home/aziz9788/pipe-line/starter/mlruns/0/b1fd022531304448b6cb20e2b60d18ea/artifacts
+end_time: 1758742558864
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b1fd022531304448b6cb20e2b60d18ea
+run_name: polite-bear-812
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758742539758
+status: 3
+tags: []
+user_id: aziz9788

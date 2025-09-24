@@ -1,0 +1,14 @@
+artifact_uri: file:///home/aziz9788/pipe-line/starter/mlruns/0/2f543008a27d44e5a5f97964e6b077fb/artifacts
+end_time: 1758742171866
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2f543008a27d44e5a5f97964e6b077fb
+run_name: zealous-ox-406
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758742156733
+status: 3
+tags: []
+user_id: aziz9788

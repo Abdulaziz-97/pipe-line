@@ -1,0 +1,14 @@
+artifact_uri: file:///home/aziz9788/pipe-line/starter/mlruns/0/7339d76741ff4cffb3ba252a17486a93/artifacts
+end_time: 1758742064667
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7339d76741ff4cffb3ba252a17486a93
+run_name: languid-whale-525
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758742023120
+status: 4
+tags: []
+user_id: aziz9788

@@ -1,0 +1,51 @@
+_wandb:
+    value:
+        cli_version: 0.21.3
+        e:
+            qdo84jxomdoy6lyewxkmdj4gj8xr7922:
+                args:
+                    - --input_artifact
+                    - raw_data.parquet:latest
+                    - --artifact_name
+                    - preprocessed_data.csv
+                    - --artifact_type
+                    - preprocessed_data
+                    - --artifact_description
+                    - Data with preprocessing applied
+                codePath: starter/preprocess/run.py
+                codePathLocal: run.py
+                cpu_count: 12
+                cpu_count_logical: 24
+                cudaVersion: "12.9"
+                disk:
+                    /:
+                        total: "1081101176832"
+                        used: "21506850816"
+                email: 3ziz9788@gmail.com
+                executable: /home/aziz9788/miniconda3/envs/mlflow-428f3442275814dbf6350cf02d74496ce6bae3ac/bin/python
+                git:
+                    commit: 08bac113ceb53fddf848307bff53a248e7317fe6
+                    remote: https://github.com/Abdulaziz-97/pipe-line.git
+                gpu: NVIDIA GeForce RTX 2080 SUPER
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      memoryTotal: "8589934592"
+                      name: NVIDIA GeForce RTX 2080 SUPER
+                      uuid: GPU-76bcb42e-862b-9f0c-a767-8fcec33ef32e
+                host: DESKTOP-H5LB02V
+                memory:
+                    total: "8296493056"
+                os: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+                program: /home/aziz9788/pipe-line/starter/preprocess/run.py
+                python: CPython 3.13.7
+                root: /home/aziz9788/pipe-line/starter/preprocess
+                startedAt: "2025-09-24T19:35:31.605097Z"
+                writerId: qdo84jxomdoy6lyewxkmdj4gj8xr7922
+        m: []
+        python_version: 3.13.7
+        t:
+            "4": 3.13.7
+            "5": 0.21.3
+            "12": 0.21.3
+            "13": linux-x86_64

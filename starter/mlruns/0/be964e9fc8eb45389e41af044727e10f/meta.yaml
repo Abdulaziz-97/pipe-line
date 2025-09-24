@@ -1,0 +1,14 @@
+artifact_uri: file:///home/aziz9788/pipe-line/starter/mlruns/0/be964e9fc8eb45389e41af044727e10f/artifacts
+end_time: 1758742444715
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: be964e9fc8eb45389e41af044727e10f
+run_name: bald-fox-421
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758742143021
+status: 4
+tags: []
+user_id: aziz9788

@@ -1,0 +1,14 @@
+artifact_uri: file:///home/aziz9788/pipe-line/starter/mlruns/0/a2e5b923126747cb826eeb8079a11f6d/artifacts
+end_time: 1758742375174
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a2e5b923126747cb826eeb8079a11f6d
+run_name: skittish-toad-631
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758742274293
+status: 3
+tags: []
+user_id: aziz9788

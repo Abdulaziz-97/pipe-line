@@ -1,0 +1,14 @@
+artifact_uri: file:///home/aziz9788/pipe-line/starter/mlruns/0/57ab029f8c43428aa4c446fd317cd2e6/artifacts
+end_time: 1758742527243
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 57ab029f8c43428aa4c446fd317cd2e6
+run_name: popular-fly-156
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758742516274
+status: 3
+tags: []
+user_id: aziz9788

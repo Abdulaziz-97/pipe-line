@@ -1,0 +1,14 @@
+artifact_uri: file:///home/aziz9788/pipe-line/starter/mlruns/0/c0ec48e37f184a19a30cd089aca0c7ba/artifacts
+end_time: 1758741676950
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c0ec48e37f184a19a30cd089aca0c7ba
+run_name: fun-wasp-760
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758741597802
+status: 4
+tags: []
+user_id: aziz9788
